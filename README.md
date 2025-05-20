@@ -1,2 +1,3 @@
 # Software-Design-Principles
 
+Basic Project structure is defined by the required Unity file arrangement. Inside of the Assets/Scenes folder is where Scenes will be stored, and the Assets/Scripts folder will conatin all of the code. The Singleton folder will contain all of the code required to implement a Singleton, the Observer folder will do the same for Observers, and so will the third folder which has a placeholder name until I determine what design pattern I will be using. The Other folder is for scripts that are not specifically related to the design patterns but are helpful for connecting them.
