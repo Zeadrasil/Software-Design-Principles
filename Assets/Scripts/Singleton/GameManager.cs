@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoBehaviour, IMovable
 {
     private static GameManager instance;
     public static GameManager Instance
