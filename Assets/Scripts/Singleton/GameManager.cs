@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GameManager : MonoBehaviour, IMovable
+public class GameManager : MonoBehaviour, IMovable, IAnnouncer
 {
     private static GameManager instance;
     public static GameManager Instance
@@ -53,8 +53,8 @@ public class GameManager : MonoBehaviour, IMovable
         Print("Pressed Down");
     }
 
-    public void SayName()
+    public void Announce(string statement)
     {
-        Print(name);
+        Debug.Log(statement);
     }
 }
